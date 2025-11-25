@@ -1,0 +1,109 @@
+@charset "UTF-8";
+html{
+    font-size:100%;
+}
+
+body{
+    font-family:"Hiragino kaku Gothic ProN","Hiragino Sans","BIZ UDPGothic",sans-serif;
+    line-height:1.7;
+    color:#432;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width:100%;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.font-english{
+    font-family: "Philosopher",sans-serif;
+    font-weight: normal;
+}
+
+.page-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+
+.page-header{
+    padding-top: .5rem;
+}
+
+.logo{
+    width: 210px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.main-nav a{
+    color: #432;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.main-nav a:hover{
+    color: #0bd;
+}
+   
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+} 
+
+.cover-home{
+    background-image: url("../images/cover-home-s.webp");
+}
+
+.about{
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+
+.about p{
+    margin-bottom: 3rem;
+}
+
+.page-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+
+.heading-large{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius:8px ;
+    padding: .75rem 1.5rem;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: #0090aa;
+}
