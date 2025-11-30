@@ -1,4 +1,5 @@
 @charset "UTF-8";
+#共通部分
 html{
     font-size:100%;
 }
@@ -16,11 +17,11 @@ a{
 img{
     max-width:100%;
 }
-
+#レイアウト
 .align-center{
     text-align: center;
 }
-
+#見出し
 .font-english{
     font-family: "Philosopher",sans-serif;
     font-weight: normal;
@@ -32,7 +33,7 @@ img{
     margin-top: 2rem;
     line-height: 1.4;
 }
-
+#ヘッダー
 .page-header{
     padding-top: .5rem;
 }
@@ -67,6 +68,15 @@ img{
     height: 800px;
 } 
 
+.sub-cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+
+
+#HOME
 .cover-home{
     background-image: url("../images/cover-home-s.webp");
 }
@@ -81,6 +91,13 @@ img{
     margin-bottom: 3rem;
 }
 
+#ニュース
+.cover-news{
+    background-image: url("../images/cover-news-l.webp");
+}
+
+
+
 .page-title{
     font-size: 3rem;
     text-align: center;
@@ -93,7 +110,7 @@ img{
     text-align: center;
     margin-bottom: 1rem;
 }
-
+#ボタン
 .btn{
     display: inline-block;
     font-size: 1.5rem;
@@ -116,6 +133,7 @@ img{
     background-position: center;
     padding-top: 12rem;
 }
+#フッター
 .info{
     width: 100%;
     max-width: 544px;
